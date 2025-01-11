@@ -17,7 +17,7 @@
 </script>
 <template>
     <main class="home-container">
-    <h1>Nouveau produit</h1>
+    <h1>Ajouter un produit</h1>
     <form action="" class="form" @submit.prevent="addProduct">
     <div class="control">
         <label for="">Description</label>
