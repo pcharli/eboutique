@@ -9,15 +9,21 @@ import { RouterLink, RouterView } from 'vue-router'
 
       <nav>
       <div class="nav-container">
-        <div id="logo">
+          <div id="logo">
             <router-link to="/">
               <img src="https://i.ibb.co/6nhfJz5/wish-logo-800.png" alt="logo" />
             </router-link>
           </div>
-          <ul class="icons">
+
+          <ul id="icons">
             <li>
               <RouterLink to="/favoris">
                 <i class="fas fa-heart"></i>
+              </RouterLink>
+            </li>
+            <li>
+              <RouterLink to="/new">
+                <i class="fas fa-plus"></i>
               </RouterLink>
             </li>
           </ul>
