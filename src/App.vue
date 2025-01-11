@@ -1,0 +1,23 @@
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
+<template>
+  <header>
+    <img alt="Vue logo" class="logo" :src="image" width="125" height="125" />
+
+    <div class="wrapper">
+
+      <nav>
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/favoris">Favoris</RouterLink>
+      </nav>
+    </div>
+  </header>
+
+  <RouterView />
+</template>
+
+<style scoped>
+
+</style>
