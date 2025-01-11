@@ -23,7 +23,7 @@
       </div>
     </div>
     <hr>
-    <button v-on:click="upgrade">Upgrade</button>
+    <button v-on:click="upgrade">Augmenter le prix</button>
   </main>
 </template>
 
