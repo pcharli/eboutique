@@ -4,13 +4,25 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" :src="image" width="125" height="125" />
 
     <div class="wrapper">
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/favoris">Favoris</RouterLink>
+      <div class="nav-container">
+        <div id="logo">
+            <router-link to="/">
+              <img src="https://i.ibb.co/6nhfJz5/wish-logo-800.png" alt="logo" />
+            </router-link>
+          </div>
+          <ul class="icons">
+            <li>
+              <RouterLink to="/favoris">
+                <i class="fas fa-heart"></i>
+              </RouterLink>
+            </li>
+          </ul>
+        
+      </div>
       </nav>
     </div>
   </header>
